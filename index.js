@@ -50,7 +50,7 @@ bot.on('message', (msg) => {
       ];
 
       // Kirim link direct download ke grup yang telah didefinisikan
-      bot.sendMessage(groupId, `Link direct download untuk file "${fileName}":`, {
+      bot.sendMessage(groupId, `Link direct download untuk file "${fileName}": ${link} `, {
         reply_markup: {
           inline_keyboard: inlineKeyboard,
       
